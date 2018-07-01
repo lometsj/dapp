@@ -1,0 +1,14 @@
+contract_address : n1pUDwQtdJTq8yaNtrL7jNup81UMrCdifUQ
+n1r3xsCmCdYEaiLZsFSCvxZFEtyyHfjhqpC
+n1sSi3Nu6g4dpxT6XFyi14BEPnWdjDhPyF4
+
+
+There are some problems with CTF write-ups in general:
+
+They’re scattered across the interwebs
+They don’t usually include the original files needed to solve the challenge
+Some of them are incomplete or skip ‘obvious’ parts of the explanation, and are therefore not as helpful for newcomers
+Often they disappear when the owner forgets to renew their domain or shuts down their blog
+This repository aims to solve those problems.
+
+It’s a collection of CTF source files and write-ups that anyone can contribute to. Did you just publish a CTF write-up? Let us know, and we’ll add a link to your post — or just add the link yourself and submit a pull request. Spot an issue with a solution? Correct it, and send a pull request.

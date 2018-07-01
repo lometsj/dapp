@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./nebPay.js"></script>
+    <script src="./index.js">
+    </script>
+</head>
+<body>
+<h1>Pwnlib</h1>
+<a href="./query.html">查询</a>
+<a href="./insert.html">添加</a>
+<p>现今的CTF Pwn的writeup有很多问题:</p>
+<ol>
+<li>大多数Pwn题分散在互联网上,没有系统的整理</li>
+<li>很多wp并没有给出原始文件</li>
+<li>一些wp总是会跳过一些&quot;关键&quot;步骤,使得对萌新的帮助非常小</li>
+<li>搜索引擎上的一些博主忘了更新域名等原因,导致网站无法访问</li>
+</ol>
+<p>这里是一个对CTF Pwn 题的搜集地  <code>Pwnlib</code><br>
+你可以在这里查看,分享 CTF Pwn题</p>
+<p>分享格式:<br>
+Title: [year]-xxctf/xxx<br>
+Description: Pwn题的描述<br>
+points: Pwn题的分数<br>
+writeup: 解题步骤,支持markdown语法<br>
+url: Pwn题源文件地址(github,百度云等)</p>
+<div >
+  已存储的Pwn题数量:<nobr id="size"></nobr>
+    <p id="p1">加载中</p>
+  </div>
+  
+  <button type="button" onclick="left();">left</button>
+  <button type="button" onclick="right();">right</button>
+
+  </body>
+  <script>init();</script>
